@@ -1,0 +1,12 @@
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+CREATE TABLE freq ( type text, pct float);
+INSERT INTO "freq" VALUES('O+',38.0);
+INSERT INTO "freq" VALUES('O-',7.0);
+INSERT INTO "freq" VALUES('A+',34.0);
+INSERT INTO "freq" VALUES('A-',6.0);
+INSERT INTO "freq" VALUES('B+',9.0);
+INSERT INTO "freq" VALUES('B-',2.0);
+INSERT INTO "freq" VALUES('AB+',3.0);
+INSERT INTO "freq" VALUES('AB-',1.0);
+COMMIT;
